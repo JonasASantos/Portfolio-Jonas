@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    line-height: 100%;
+    font-size: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    scrollbar-gutter: stable;
+}
+
+h1, li, ul, a, p, h2, h4, tr, th, td{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body    {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( #483d71, #1f1f59, #000042); 
+}
+
+.container  {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+main    {
+    display: flex;
+    width: 100%;
+    height: 93.2%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gitprof    {
+    display: flex;
+    justify-content: center ;
+    margin: auto;
+    box-shadow: 10px 10px #00000030;
+}

@@ -1,0 +1,50 @@
+h1, li, ul, a, p, h2, h4, tr, th, td{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #383168;
+    border-bottom: white 0.1em;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.title  {
+    display: flex;
+    margin: 0.5em;
+    background-color: #484963;
+    border-radius: 20px;
+    padding: 0.2em 0.2em; 
+    font-size: 1.7em;
+}
+
+.nav_link   li{
+    display: inline-block;
+    padding: 0em 2.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav_link :hover{
+    color: aqua;
+}
+
+@media screen and (max-width:800px) {
+
+}
+
+.madeby {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    background-color: #483d7121; 
+}
