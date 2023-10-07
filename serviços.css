@@ -56,3 +56,5 @@ td, th  {
 .atributo   {
     display: flex;
 }
+
+@media (max-width:480px) {}

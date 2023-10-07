@@ -31,8 +31,8 @@ main    {
     flex-direction: column;
 } 
 
-.luffy-sky  {
-    width: 50%;
+.jonaspng  {
+    width: 25%;
     margin: auto;
     margin-top: 0.5em;
     border: white 1px;
@@ -74,3 +74,5 @@ main    {
     padding: 0%;
     box-shadow: 10px 10px #00000030;
 }
+
+@media (max-width:480px) {}

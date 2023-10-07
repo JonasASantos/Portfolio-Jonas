@@ -37,9 +37,6 @@ header {
     color: aqua;
 }
 
-@media screen and (max-width:800px) {
-
-}
 
 .madeby {
     display: flex;
@@ -48,3 +45,5 @@ header {
     margin: auto;
     background-color: #483d7121; 
 }
+
+@media (max-width:480px) {}

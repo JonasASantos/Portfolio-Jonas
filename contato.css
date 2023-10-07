@@ -9,7 +9,7 @@
     scrollbar-gutter: stable;
 }
 
-h1, li, ul, a, p, h2, h4, tr, th, td{
+h1, li, ul, a, p, h2, h4, tr, th, td, label{
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
@@ -28,11 +28,36 @@ main    {
     flex-direction:column;  
 }
 
+.fale {
+    margin: auto;
+    font-size: 2em;
+}
+
 .formas {
     display: flex;
     width: 90%;
     justify-content: center ;
     flex-direction: column;
     margin: auto;
-    font-size: 2em;
+    font-size: 1.2em;
 }
+
+.form  {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+label, input    {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.Email, .Telefone, .Linkedin  {
+    margin: auto;
+    padding: 1em;
+} 
+
+@media (max-width:480px) {}
