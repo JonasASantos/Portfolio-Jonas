@@ -63,6 +63,8 @@ main    {
 .covers {
     display: flex;
     justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 

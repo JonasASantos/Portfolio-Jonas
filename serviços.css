@@ -15,14 +15,14 @@ h1, li, ul, a, p, h2, h4, tr, th, td{
 }
 
 body    {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: linear-gradient( #483d71, #1f1f59, #000042); 
 }
 
 main    {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 93.2vh;
     align-items: center;
     flex-direction: column;  
